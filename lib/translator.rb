@@ -15,7 +15,11 @@ end
 def get_japanese_emoticon(file, emoji)
     translation_hash = load_library(file)
     trans = translation_hash["get_emoticon"][emoji]
-    trans
+    if trans == nil
+      puts "Sorry, that emoticon was not found"
+    else
+      trans
+    end
 end
 
 def get_english_meaning
