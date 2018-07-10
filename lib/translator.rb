@@ -28,7 +28,7 @@ def get_english_meaning (file, emoji)
   binding.pry
   if trans == nil
     "Sorry, that emoticon was not found"
-  els
+  else
     trans
   end
 end
