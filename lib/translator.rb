@@ -28,6 +28,6 @@ def get_english_meaning (file, emoji)
   if trans == nil
     puts "Sorry, that emoticon was not found"
   else
-    puts trans
+    trans
   end
 end
