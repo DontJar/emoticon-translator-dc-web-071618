@@ -18,7 +18,7 @@ def get_japanese_emoticon(file, emoji)
     if trans == nil
       puts "Sorry, that emoticon was not found"
     else
-      trans
+      puts trans
     end
 end
 
