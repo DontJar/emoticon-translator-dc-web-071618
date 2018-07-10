@@ -17,6 +17,7 @@ def get_japanese_emoticon(file, emoji)
     trans = translation_hash["get_emoticon"][emoj]
     if trans
       trans
+    end
 end
 
 def get_english_meaning
