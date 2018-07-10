@@ -15,8 +15,8 @@ end
 def get_japanese_emoticon(file, emoji)
     translation_hash = load_library(file)
     trans = translation_hash["get_emoticon"][emoj]
-    binding.pry
-    trans
+    if trans
+      trans
 end
 
 def get_english_meaning
