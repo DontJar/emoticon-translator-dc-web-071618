@@ -14,13 +14,9 @@ end
 
 def get_japanese_emoticon(file, emoji)
     translation_hash = load_library(file)
-    trans = translation_hash["get_emoticon"][emoj]
-    if trans
-      trans
-    else
-      puts "no dice"
+    trans = translation_hash["get_emoticon"][emoji]
+    trans
     end
-end
 
 def get_english_meaning
   # code goes here
