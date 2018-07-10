@@ -17,7 +17,8 @@ def get_japanese_emoticon(file, emoji)
     trans = translation_hash["get_emoticon"][emoj]
     if trans
       trans
-    english_emoticon
+    else
+      puts "no dice"
     end
 end
 
